@@ -1,0 +1,10 @@
+var battingAverage = [300, 350, 420, 228, 150];
+for (i = 0; battingAverage.length; i++) {
+	if (battingAverage[i] < 170) {
+	console.log('You are being cut, sport.');
+	} else if ((battingAverage[i] > 250) && (battingAverage[i] > 200)) {
+	console.log('We will keep you for the time being.') 
+	} else if (battingAverage[i] > 299) {
+	console.log('Good job, Champ.')
+	}
+}
